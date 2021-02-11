@@ -1,11 +1,71 @@
-/* comuni */
 body{
   font-family: 'Lato', sans-serif;
 }
 
-.txt-cap{
-  text-transform: uppercase;
+.container{
+  max-width: 1140px;
 }
+
+nav{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.navbar-default{
+  background-color: #2C3E50;
+  border: none;
+}
+
+
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+@media all and  (min-width: 1200px){
+  nav{
+    height: 103px;
+  }
+
+  nav a.navbar-brand,
+  nav ul.navbar-nav{
+    height: 103px;
+    line-height: 103px;
+    padding: 0 15px;
+  }
+
+  .navbar-brand{
+    font-size: 2em;
+  }
+
+  .navbar-default .navbar-brand:hover{
+    color: #fff;
+  }
+
+  nav ul.navbar-nav li a{
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 1em;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover{
+    color: #1ABC9C;
+  }
+
+  .navbar-default .navbar-nav>li>a:focus{
+    padding: 1em;
+    background-color: #1ABC9C;
+    color:  #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+
+}
+/* comuni */
+/*
 
 .xs-hidden{
   display: none;
@@ -109,4 +169,4 @@ nav ul li.my-btn a:focus{
     border-radius: 10px;
   }
 
-}
+} */
