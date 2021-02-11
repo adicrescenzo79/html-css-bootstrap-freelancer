@@ -4,6 +4,8 @@ body{
 
 .container{
   max-width: 1140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 nav{
@@ -17,6 +19,9 @@ nav{
   border: none;
 }
 
+.navbar-brand{
+  font-size: 20px;
+}
 
 
 .navbar-default .navbar-nav>li>a,
@@ -24,24 +29,68 @@ nav{
   color: #fff;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+  color: #fff;
+}
+
+.navbar-toggle{
+  font-size: 12.8px;
+  padding: 1em 1.2em;
+  background-color: #1ABC9C;
+  color:  #fff;
+  text-decoration: none;
+  border-radius: 7px;
+  border: none;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus{
+  color: #1ABC9C;
+}
+
+@media all and (min-width: 768px) {
+  .container{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navbar{
+    border-radius: 0;
+  }
+
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus{
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav>li>a:focus{
+    padding: 1em;
+    background-color: #1ABC9C;
+    color:  #fff;
+    text-decoration: none;
+    border-radius: 7px;
+  }
+
+}
+
 @media all and  (min-width: 1200px){
-  nav{
-    height: 103px;
-  }
-
-  nav a.navbar-brand,
-  nav ul.navbar-nav{
-    height: 103px;
-    line-height: 103px;
-    padding: 0 15px;
-  }
-
   .navbar-brand{
     font-size: 2em;
   }
 
+
+  nav .container{
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
   .navbar-default .navbar-brand:hover{
     color: #fff;
+  }
+
+  nav ul.navbar-nav {
+    margin-right: 0;
   }
 
   nav ul.navbar-nav li a{
@@ -54,13 +103,6 @@ nav{
     color: #1ABC9C;
   }
 
-  .navbar-default .navbar-nav>li>a:focus{
-    padding: 1em;
-    background-color: #1ABC9C;
-    color:  #fff;
-    text-decoration: none;
-    border-radius: 10px;
-  }
 
 
 }
