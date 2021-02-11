@@ -1,8 +1,112 @@
-[class*="col-"]{
+/* comuni */
+body{
+  font-family: 'Lato', sans-serif;
 }
 
-.red{
-  background-color: red;
-  height: 50px;
+.txt-cap{
+  text-transform: uppercase;
+}
+
+.xs-hidden{
+  display: none;
+}
+
+nav{
+  height: 75px;
+  background-image: none;
+  background-color: #2C3E50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+nav a{
+  color: #fff;
+
+}
+
+nav .logo a{
+  font-size: 1.45em;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  line-height: 75px;
+}
+
+nav ul{
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 75px;
+}
+
+
+
+nav ul li a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+nav ul li a:focus{
+  padding: 1em;
+  background-color: #1ABC9C;
+  color:  #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav ul li.my-btn a{
+  font-size: 0.9em;
+  padding: 1.1em;
+  background-color: #1ABC9C;
+  color:  #fff;
+  text-decoration: none;
+  border-radius: 7.5px;
+}
+
+.glyphicon-menu-hamburger{
+  font-size: 0.89em;
+}
+
+nav ul li.my-btn a:focus{
+  padding: 1em;
+  background-color: #148F77;
+  color:  #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+
+@media all and  (min-width: 1200px){
+  nav{
+    height: 100px;
+  }
+
+  nav .logo a{
+    font-size: 2em;
+    line-height: 100px;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 2em;
+    line-height: 100px;
+  }
+
+  nav li a:focus{
+    padding: 1em;
+    background-color: #1ABC9C;
+    color:  #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
 
 }
