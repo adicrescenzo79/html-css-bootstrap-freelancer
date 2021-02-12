@@ -24,7 +24,7 @@ h2{
 }
 
 p{
- font-size: 20px;
+ font-size: 19px;
  font-weight: normal;
 }
 
@@ -193,8 +193,8 @@ nav{
 #about{
   background-color: #1ABC9C;
   color: #fff;
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 110px;
 }
 
 #about p{
@@ -257,15 +257,18 @@ nav{
   /* about */
   #about{
     width: 100%;
-    padding-bottom: 120px;
   }
 
   #about .content{
     padding: 0 20px;
   }
 
-  #about p:last-of-type{
-    margin-bottom: 72px;
+  #about p{
+    font-size: 21px;
+  }
+
+  #about .my_margin{
+    margin-top: -40px;
   }
 
 
@@ -343,6 +346,15 @@ nav{
     color: #fff;
     font-size: 75px;
     padding: 89px 32px;
+  }
+
+  /* about */
+  #about{
+    padding-bottom: 84px;
+  }
+
+  #about .my_margin{
+    margin-top: auto;
   }
 
 
