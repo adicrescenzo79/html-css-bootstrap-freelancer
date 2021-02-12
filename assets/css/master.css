@@ -102,7 +102,7 @@ nav{
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus{
-  color: #fff;
+  color: #1ABC9C;
 }
 
 .navbar-toggle{
@@ -300,15 +300,37 @@ nav{
   color: #3A546D
 }
 
-
 #info p span{
   color: #1ABC9C;
+}
+
+/* copyright */
+#copyright{
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 13px 0;
+}
+
+#copyright span{
+  font-size: 12.8px;
+}
+/* up */
+#up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 7px;
 }
 
 @media all and (min-width: 768px) {
   .container{
     padding-top: 12px;
     padding-bottom: 12px;
+    z-index: 1000;
   }
 
   /* header nav */
@@ -405,6 +427,10 @@ nav{
     color: #1ABC9C;
   }
 
+  .navbar-default .navbar-nav>li>a:focus{
+    color: #fff;
+  }
+
   /* header jumbo */
   .jumbo{
     padding-top: 185px;
@@ -452,6 +478,11 @@ nav{
 
   #info .mt{
     margin-top: 20px;
+  }
+
+  /* up */
+  #up{
+    display: none;
   }
 
 }
