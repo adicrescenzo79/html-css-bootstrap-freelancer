@@ -1,6 +1,5 @@
 body{
   font-family: 'Lato', sans-serif;
-  padding-bottom: 1000px;
 }
 
 .container{
@@ -22,6 +21,13 @@ h2{
   font-weight: 700;
   line-height: 45px;
 }
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 
 p{
  font-size: 19px;
@@ -217,9 +223,10 @@ nav{
   margin-right: 10px;
 }
 
-/* contact */
+/* main contact */
 #contact{
   padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 #contact form{
@@ -248,6 +255,54 @@ nav{
   font-size: 20px;
   padding: 16px 28px;
   border-radius: 7px;
+  margin-top: 20px;
+}
+
+/* info */
+#info{
+  background-color: #3A546D;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+#info p,
+#info i{
+  font-size: 20px;
+}
+
+#info p{
+  margin-top: 25px;
+}
+
+#info .mt{
+  margin-top: 43px;
+}
+
+#info .icons{
+  margin-top: 27px;
+}
+
+#info i{
+  padding: 12px 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0 7px;
+}
+
+#info i.fa-facebook-f{
+  padding: 12px 17px;
+}
+
+#info i:hover,
+#info i:focus{
+  background-color: #fff;
+  color: #3A546D
+}
+
+
+#info p span{
+  color: #1ABC9C;
 }
 
 @media all and (min-width: 768px) {
@@ -256,6 +311,7 @@ nav{
     padding-bottom: 12px;
   }
 
+  /* header nav */
   .navbar{
     border-radius: 0;
   }
@@ -273,7 +329,7 @@ nav{
     border-radius: 7px;
   }
 
-  /* portfolio */
+  /* main portfolio */
   #portfolio{
     width: 720px;
   }
@@ -286,7 +342,7 @@ nav{
     height: 223px;
   }
 
-  /* about */
+  /* main about */
   #about{
     width: 100%;
   }
@@ -380,7 +436,7 @@ nav{
     padding: 89px 32px;
   }
 
-  /* about */
+  /* main about */
   #about{
     padding-bottom: 84px;
   }
@@ -389,5 +445,13 @@ nav{
     margin-top: auto;
   }
 
+  /* info */
+  #info{
+    padding-bottom: 35px;
+  }
+
+  #info .mt{
+    margin-top: 20px;
+  }
 
 }
