@@ -217,6 +217,38 @@ nav{
   margin-right: 10px;
 }
 
+/* contact */
+#contact{
+  padding-top: 60px;
+}
+
+#contact form{
+  margin-top: 53px;
+}
+
+#contact .my-form-control{
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 24px;
+  color: #3b5269;
+  width: 100%;
+  line-height: 85px;
+}
+
+#contact .my-form-control::placeholder{
+  color: #3b5269;
+}
+
+#contact .btn{
+  border: none;
+  color: #fff;
+  background-color: #1ABC9C;
+  font-size: 20px;
+  padding: 16px 28px;
+  border-radius: 7px;
+}
 
 @media all and (min-width: 768px) {
   .container{
